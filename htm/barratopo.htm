@@ -1,0 +1,501 @@
+<!-- Includes CSS -->
+<link rel="stylesheet" href="/wave/V3/waveMin.css?cccfc=1">
+<script>
+FCLib$.loadAsyncCSS('<PathTo file="htm/css/jquery_ui.css">');
+FCLib$.loadAsyncCSS('<PathTo file="htm/css/FastPreview.css">');
+</script>
+<script language=JavaScript src=<BaseLoja>htm/SimulaFreteFC.js></script>
+<script type=""text/javascript"">
+IDLoja='<IDLoja>'; //Obtém IDLoja para montar links
+IDLojaNum='<IDLojaNum>';
+</script>
+
+<!--[if IE]><style type="text/css">.ui-autocomplete-category{margin-top: -2px}</style><![endif]-->
+<!-- Includes Javascript -->
+<script src='<PathTo file="htm/JurosParcelas.js">'></script>
+<script src='<PathTo file="htm/LojaLib.js">'></script>
+
+<!-- Begin Login and Share -->
+<div class="HeaderUserStore">
+  <div class="row">
+    <div class="MainContainer">
+      <div class="col-small-5 col-medium-5 col-large-4 col-mlarge-4 col-xlarge-4 HeaderLoginInfos">
+        <tag-FCHeaderLogin>
+        <span id="idImgGlobalSignFC"></span>
+      </div>
+      <div class="col-small-7 col-medium-7 col-large-8 col-mlarge-8 col-xlarge-8">
+	<ul class="MenuInfosShare" >
+	  <li><tag-FCHeaderMenuInfosShare5></li>
+      <li>|</li>
+	  <li><tag-FCHeaderMenuInfosShare2></li>
+      <li>|</li>
+	  <li><tag-FCHeaderMenuInfosShare3></li>
+      <li>|</li>
+      <li><a href="/faleconosco.asp?idloja=<IDLojaNum>"><tag-FCHeaderContact></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Login and Share -->
+
+<!-- Begin Logo, Search and Cart -->
+<div class="HeaderLogoSearch">
+  <div class="row">
+      <!-- Begin Logo -->
+    <div class="MainContainer HeaderLogoSearchSpace">
+      <div class="col-small-2 col-medium-2 col-large-2 col-mlarge-2 col-xlarge-2 text-right">
+        <tag-FCHeaderLogo>
+      </div>
+      <!-- End Logo -->
+      <!-- Begin Slogan -->
+      <div class="col-small-5 col-medium-5 col-large-5 col-mlarge-5 col-xlarge-5 text-center HeaderSlogan">
+	    <tag-FCHeaderSlogan></div>
+	  <!-- End Slogan -->
+      <!-- Begin Search -->
+      <div class="col-small-3 col-medium-3 col-large-3 col-mlarge-3 col-xlarge-3">
+        <tag-FCHeaderSearch>
+      </div>
+      <!-- End Search -->
+      <!-- Begin Cart -->
+      <div class="col-small-2 col-medium-2 col-large-2 col-mlarge-2 col-xlarge-2 HeaderBasket">
+        <tag-FCHeaderCart>
+      </div>
+      <!-- End Cart -->
+    </div>
+  </div>
+</div>
+<!-- End Logo, Search and Cart -->
+
+<!-- Begin Menu -->
+<div class="HeaderMainMenu">
+  <div class="row">
+    <div class="MainContainer">
+      <div class="col-small-12 col-medium-12 col-large-12 col-mlarge-12 col-xlarge-12">
+	<div class="HeaderMenuDropdown">
+	  <ul id="mega-menu-tut" class="menu">
+	    	<li><a href="#">produtos</a>
+              <ul>
+         <li><a href="ListaProdutos.asp?IDLoja=<IDLoja>&Lancamento=True">Novidades</a></li>   
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54124,Acessorios-eletronicos">Acessórios p/ eletrônicos</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54125,Artesanato">Artesanato</a></li>      
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54126,Bar">Bar</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54127,Cozinha">Cozinha</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54128,Escritorio">Escritório</a></li>        
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54129,Casa-e-Jardim">Casa e Jardim</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,61097,Kids">Kids</a></li>  
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54130,Mesa">Mesa</a></li>  
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54131,Organizadores">Organizadores</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54132,Saude-e-Bem-estar">Saúde e Bem-estar</a></li>       
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54133,Uso-Pessoal">Uso Pessoal</a></li> 
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,54134,Viagem">Viagem</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional3,70227,Vinho">Vinho</a></li>
+	      </ul>
+	    </li>
+        <li><a href="#">marcas</a>
+          <ul>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112176,black-blum">Black+blum</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112177,bluelounge">Bluelounge</a></li>
+         	<li><a href="/prod,idloja,23005,avancada,1,adicional1,124226,Built-NY">Built NY</a></li>
+            <li><a href="/prod,idloja,23005,avancada,1,adicional1,131699,Chefn">Chef'n</a></li>
+            <li><a href="/prod,idloja,23005,avancada,1,adicional1,131700,Cumaru">Cumaru</a></li>
+            <li><a href="/prod,idloja,23005,avancada,1,adicional1,131698,Flivo">Flivo</a></li>
+            <li><a href="/prod,idloja,23005,avancada,1,adicional1,131772,Garden-du-vin">Garden du vin</a></li>
+            <li><a href="/prod,idloja,23005,avancada,1,adicional1,127466,Joby">Joby</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112181,Joseph-Joseph">Joseph Joseph</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112182,Konstantin-Slawinski">Konstantin Slawinski</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112183,Magisso">Magisso</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,115125,OXO-tot">OXO tot</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112184,Pavel-Sidorenko">Pavel Sidorenko</a></li>
+            <li><a href="/prod,idloja,23005,avancada,1,adicional1,131773,Prana-Gourmet">Prana Gourmet</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112185,quirky">Quirky</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112186,Sabi">Sabi</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112187,slice">Slice</a></li>
+			<li><a href="/prod,idloja,23005,avancada,1,adicional1,112188,Vacu-vin">Vacu vin</a></li>
+	      </ul>
+	    </li>
+        <li><a href="#">designers</a>
+	      <ul>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66184,Alfredo-Muccino">Alfredo Muccino</a></li>
+        <li><a href="/prod,idloja,23005,avancada,1,adicional2,84601,Chauhan-Studio">Chauhan Studio</a></li>
+        <li><a href="/prod,idloja,23005,avancada,1,adicional2,84602,Damian-Evans">Damian Evans</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66185,Dan-Black">Dan Black</a></li>
+        <li><a href="/prod,idloja,23005,avancada,1,adicional2,84603,David-Holcomb">David Holcomb</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66186,Derek-Roberts">Derek Roberts</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66187,Design-Wright">Design Wright</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66188,Ding3000">Ding3000</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66189,Dominic-Symons">Dominic Symons</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66190,Gillian-Westley">Gillian Westley</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,68737,Goodwin-Hartshorn-Joseph-Joseph)">Goodwin Hartshorn</a></li>   
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66191,Graeme-Davies">Graeme Davies</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66193,IIC-design-team">IIC design team</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,71853,Juhani-Siren">Juhani Sirén</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66195,Karin-Rashid">Karim Rashid</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,71858,Laura-Bougdanos">Laura Bougdanos</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,71854,Maria-Kivijarvi">Maria Kivijärvi</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,68738,Mark-Sanders">Mark Sanders</a></li> 
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66196,Martin-Blum">Martin Blum</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66198,Morph-UK">Morph UK</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66199,Pavel-Sidorenko">Pavel Sidorenko</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66200,Scot-Herbest">Scot Herbest</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,73265,Smart-Design">Smart Design</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66201,Studio-Dreimann">Studio Dreimann</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,71855,Vesa-Jaasko">Vesa Jääskö</a></li>
+		<li><a href="/prod,idloja,23005,avancada,1,adicional2,66202,Yves-Behar">Yves Béhar</a></li> 
+	      </ul>
+	    </li>
+        <li><a href="#">prêmios</a>
+	      <ul>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66134,American-Photo-Editors-Choice">American Photo Editors’ Choice</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66135,Cooking-Club-of-America">Cooking Club of America</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,67366,Core77-Design-Award">Core77 Design Award</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66136,Creative-Home-Arts-Club">Creative Home Arts Club</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66137,Design-Plus">Design Plus</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66138,Designpreis-Deutschland">Designpreis Deutschland</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66139,Excellence-in-Housewares-Awards">Excellence in Housewares Awards</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,71856,Fennia-Prize">Fennia Prize</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66140,Focus-Open">Focus Open</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66141,Form-Design-Prize">Form Design Prize</a></li> 
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66142,German-Design-Award">German Design Award</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,84600,Gift-of-the-Year">Gift of the Year</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,71857,Global-Innovation-Award">Global Innovation Award</a></li>      
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66143,Good-Design-Award">Good Design Award</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,68739,Good-Design-Award-Japan">Good Design Award (Japan)</a></li>   
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66144,Good-Industrial-Design">Good Industrial Design</a></li>     
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66145,Housewares-Design-Award">Housewares Design Award</a></li>    
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66146,iF-Design-Award">iF Design Award</a></li>    
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66147,Innovations-Design-and-Engineering-Showcase-Award">Innovation Award</a></li>         
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,73270,IDEA">IDEA</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66599,Product-of-the-Year-Award">Product of the Year Award</a></li>  
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,66150,RedDot-Design-Award">RedDot Design Award</a></li>
+         <li><a href="/prod,idloja,23005,avancada,1,adicional2,67365,Spark-Design-Awards">Spark Design Awards</a></li>
+	      </ul>
+	    </li>
+	    <li><tag-FCHeaderMenu1></li>
+        <li><tag-FCHeaderMenu2></li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Menu -->
+
+<div class="HeaderInfoBanner">
+<!-- Begin: 4 banners - Payment, Locker, Delivery and Contact -->
+<div class="MainContainer">
+  <div class="row">
+
+    <!-- Begin: Banner Payment -->
+    <div class="col-small-3 col-medium-3 col-large-3 col-mlarge-3 col-xlarge-3 FooterBannersImgTit">
+      <ul  class="FooterMainMenu">
+        <li>
+	  <a href="/ajuda.asp?idloja=<IDLojaNum>#Pagamentos">
+	    <img64 plain="true" width="10" height="10" alt="Veja nossas formas de pagamento" title="Veja nossas formas de pagamento">
+	    <div class="FooterMainContentMenu">
+	      <tag-FCFooterBadgePayment>
+            </div>
+	  </a>
+        </li>
+      </ul>
+      </div>
+    <!-- End: Banner Payment -->
+
+    <!-- Begin: Banner Juros -->
+    <div class="col-small-3 col-medium-3 col-large-3 col-mlarge-3 col-xlarge-3 FooterBannersImgTit">
+      <ul class="FooterMainMenu">
+        <li>
+	  <a href="/ajuda.asp?idloja=<IDLojaNum>#Pagamentos">
+	    <img64 plain="true" width="10" height="10" alt="Alguma dúvida? Fale conosco" title="Alguma dúvida? Fale conosco">
+	    <div class="FooterMainContentMenu">
+              <tag-FCFooterBadgeJuros>
+	    </div>
+	  </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End: Banner Juros -->
+    <!-- Begin: Banner Delivery -->
+    <div class="col-small-3 col-medium-3 col-large-3 col-mlarge-3 col-xlarge-3 FooterBannersImgTit">
+      <ul class="FooterMainMenu">
+        <li>
+	  <a href="/ajuda.asp?idloja=<IDLojaNum>#EnvioFrete">
+	    <img64 plain="true" width="10" height="10" alt="Conheça nossos tipo de frete" title="Conheça nossos tipo de frete">
+	      <div class="FooterMainContentMenu">
+	        <tag-FCFooterBadgeDelivery>
+	      </div>
+	  </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End: Banner Delivery -->    
+    <!-- Begin: Banner Security -->
+    <div class="col-small-3 col-medium-3 col-large-3 col-mlarge-3 col-xlarge-3 FooterBannersImgTit">
+      <ul class="FooterMainMenu">
+        <li>
+	  <a href="/ajuda.asp?idloja=<IDLojaNum>#Privacidade">
+        <img64 plain="true" width="10" height="10" alt="Veja nossos selos de Loja Segura" title="Veja nossos selos de Loja Segura">
+	    <div class="FooterMainContentMenu">
+	      <tag-FCFooterBadgeSecurityStore>
+	    </div>
+	  </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End: Banner Security -->
+  </div>
+<!-- End: 4 banners - Payment, Locker, Delivery and Contact -->
+</div>        
+        
+<!-- Begin Banner Home -->
+<div id="FC-ShowHomeBanners"></div>
+<!-- End Banner Home -->
+
+<!-- Begin Aside BarraEsquerda.htm - Close Rodape.htm - Don't remove -->
+<div class="MainContainer">
+  <div class="row">
+    
+<script type="text/javascript">
+
+var myid = new Array();
+
+
+//MARCAS
+
+myid[0] = ["Slice.js",
+"112187"];
+
+myid[1] = ["Sabi.js",
+"112186"];
+
+myid[2] = ["Quirky.js",
+"112185"];
+
+myid[3] = ["BlackBlum.js",
+"84947"];
+
+myid[4] = ["Bluelounge.js",
+"112177"];
+
+myid[5] = ["built.js",
+"124226"];
+
+myid[6] = ["Joby.js",
+"127466"];
+
+myid[7] = ["JosephJoseph.js",
+"112181"];
+
+myid[8] = ["KonstantinSlawinski.js",
+"112182"];
+
+myid[9] = ["Magisso.js",
+"112183"];
+
+myid[10] = ["oxotot.js",
+"115125"];
+
+myid[11] = ["VacuVin.js",
+"112188"];
+
+myid[12] = ["Chefn.js",
+"131699"];
+
+myid[13] = ["Cumaru.js",
+"131700"];
+
+myid[14] = ["Flivo.js",
+"131698"];
+
+myid[15] = ["DSPavelSidorenko.js",
+"112184"];
+
+myid[16] = ["Garden.js",
+"131772"];
+  
+myid[17] = ["Prana.js",
+"131773"];
+
+//PRÊMIOS
+
+myid[18] = ["AmericanPhoto.js",
+"66134"];
+
+myid[19] = ["CookingClub.js",
+"66135"];
+
+myid[20] = ["CreativeHom.js",
+"66136"];
+
+myid[21] = ["DesignPlus.js",
+"66137"];
+
+myid[22] = ["DDeutschland.js",
+"66138"];
+
+myid[23] = ["ExcellenceIn.js",
+"66139"];
+
+myid[24] = ["FenniaPrize.js",
+"71856"];
+
+myid[25] = ["FocusOpen.js",
+"66140"];
+
+myid[26] = ["FormDesign.js",
+"66141"];
+
+myid[27] = ["GermanDesign.js",
+"66142"];
+
+myid[28] = ["GlobalInnovation.js",
+"71857"];
+
+myid[29] = ["GoodDesign.js",
+"66143"];
+
+myid[30] = ["GoodIndustrial.js",
+"66144"];
+
+myid[31] = ["Housewares.js",
+"66145"];
+
+myid[32] = ["IfDesignAward.js",
+"66146"];
+
+myid[33] = ["Innovations.js",
+"66147"];
+
+myid[34] = ["Idea.js",
+"73270"];
+
+myid[35] = ["RedDotDesign.js",
+"66150"];
+
+myid[36] = ["SparkDesignAw.js",
+"67365"];
+
+myid[37] = ["Core77DesignAw.js",
+"67366"];
+
+myid[38] = ["GoodDAJapan.js",
+"68739"];
+
+myid[39] = ["Gift.js",
+"84600"];
+
+//DESIGNERS
+
+myid[40] = ["AlfredoMuccino.js",
+"66184"];
+
+myid[41] = ["ChauhanStudio.js",
+"84601"];
+
+myid[42] = ["DamianEvans.js",
+"84602"];
+
+myid[43] = ["DanBlack.js",
+"66185"];
+
+myid[44] = ["DavidHolcomb.js",
+"84603"];
+
+myid[45] = ["DerekRoberts.js",
+"66186"];
+
+myid[46] = ["DesignWrigth.js",
+"66187"];
+
+myid[47] = ["Ding3000.js",
+"66188"];
+
+myid[48] = ["DominicSymons.js",
+"66189"];
+
+myid[49] = ["GillianWestley.js",
+"66190"];
+
+myid[50] = ["GraemeDavies.js",
+"66191"];
+
+myid[51] = ["IICDesignTeam.js",
+"66193"];
+
+myid[52] = ["JuhaniSiren.js",
+"71853"];
+
+myid[53] = ["KarinRashid.js",
+"66195"];
+
+myid[54] = ["LauraBougdanos.js",
+"71858"];
+
+myid[55] = ["MariaKivijarvi.js",
+"71854"];
+
+myid[56] = ["MartinBlum.js",
+"66196"];
+
+myid[57] = ["MorphUK.js",
+"66198"];
+
+myid[58] = ["PavelSidorenko.js",
+"66199"];
+
+myid[59] = ["ScotHerbest.js",
+"66200"];
+
+myid[60] = ["SmartDesign.js",
+"73265"];
+
+myid[61] = ["StudioDreimann.js",
+"66201"];
+
+myid[62] = ["VesaJaasko.js",
+"71855"]
+
+myid[63] = ["YvesBehar.js",
+"66202"];
+
+myid[64] = ["DiyProduct.js",
+"66599"];
+
+myid[65] = ["GoodwinHartshorn.js",
+"68737"];
+
+myid[66] = ["MarkSanders.js",
+"68738"];
+
+
+	var path = "../lojas/00023005/htm/Arqs/";
+
+	function geralink( sPag )
+	{
+		for (x in myid)
+		{
+			for (y in myid[x])
+			{
+				if( sPag.indexOf( myid[x][y] ) >= 0 )
+				{
+					document.write("<SCR" + "IPT LANGUAGE='JavaScript' SRC='"+path+myid[x][0]+"' TYPE='text/javascript'><\/SCR" + "IPT>");
+				}
+			}
+		}
+	}
+
+	
+
+var sPag=document.location.href.toUpperCase();
+
+if(sPag.indexOf("HOME.ASP")>=0 || sPag.indexOf("IDPRODUTO")>=0 || sPag.indexOf("AJUDA")>=0 || sPag.indexOf("ADDPRODUTO")>=0 || sPag.indexOf("CONFIRMACAO")>=0 || sPag.indexOf("PROMOCAO")>=0 || sPag.indexOf("LANCAMENTO")>=0 || sPag.indexOf("BUSCAAVANCADA")>=0 || sPag.indexOf("NEWSLETTER")>=0 || sPag.indexOf("INDIQUE")>=0 || sPag.indexOf("RECALCULA")>=0 || sPag.indexOf("FORMAPAGTO")>=0 || sPag.indexOf("FALECONOSCO")>=0 || sPag.indexOf("NOTICIAS")>=0 || sPag.indexOf("CONFIRMACAO")>=0 || sPag.indexOf("TEXTO")>=0 || sPag.indexOf("ADDMULT")>=0 || sPag.indexOf("DESTAQUE")>=0 || sPag.indexOf("LIQUIDACAO")>=0 || sPag.indexOf("QUEMSOMOS")>=0 || sPag=="HTTP://WWW.DESIGNANYWARE.COM.BR/" || sPag=="HTTP://DESIGNANYWARE.COM.BR/" || sPag=="HTTP://DESIGNANYWARE.LOJAVIRTUALFC.COM.BR/") {
+	
+	document.write("");
+	
+} else {
+
+	geralink( sPag );
+
+}
+
+</script>`
